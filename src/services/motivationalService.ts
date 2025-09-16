@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://zenquotes.io/api/random";
+const API_URL = "https://corsproxy.io/?url=https://zenquotes.io/api/random";
 
 export const getMotivation = async (): Promise<string> => {
   try {
